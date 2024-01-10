@@ -16,7 +16,7 @@ import java.util.Map;
 /**
  * Blog Service
  *
- * @author Myles Yang
+ * 
  */
 public interface BlogService {
 

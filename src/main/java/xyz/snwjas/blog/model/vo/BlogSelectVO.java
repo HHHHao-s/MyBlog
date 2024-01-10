@@ -12,7 +12,7 @@ import java.io.Serializable;
  * Blog Select VO
  * 评论中选择文章搜索
  *
- * @author Myles Yang
+ * 
  */
 @Data
 @Accessors(chain = true)

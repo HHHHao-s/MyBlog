@@ -14,7 +14,7 @@ import org.springframework.http.HttpStatus;
  * 6001 - 6999 接口
  * 7001 - 7999 系统
  *
- * @author Myles Yang
+ * 
  */
 public enum RS {
 

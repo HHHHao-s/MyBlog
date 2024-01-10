@@ -23,7 +23,7 @@ import java.util.Objects;
 /**
  * User Service Impl.
  *
- * @author Myles Yang
+ * 
  */
 @Service
 public class UserServiceImpl implements UserService {

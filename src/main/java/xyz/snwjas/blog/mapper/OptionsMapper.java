@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * 系统（博客）设置 Mapper 接口
  * </p>
  *
- * @author Myles Yang
+ * 
  */
 public interface OptionsMapper extends BaseMapper<OptionsEntity> {
 

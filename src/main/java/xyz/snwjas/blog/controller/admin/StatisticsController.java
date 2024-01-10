@@ -16,11 +16,7 @@ import xyz.snwjas.blog.utils.RUtils;
 import java.time.LocalDateTime;
 import java.util.List;
 
-/**
- * Admin Controller
- *
- * @author Myles Yang
- */
+
 @Validated
 @RestController("AdminStatisticsController")
 @RequestMapping("/api/admin/statistics")

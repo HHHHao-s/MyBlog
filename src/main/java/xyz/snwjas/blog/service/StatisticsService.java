@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Statistics Service
  *
- * @author Myles Yang
+ * 
  */
 public interface StatisticsService {
 

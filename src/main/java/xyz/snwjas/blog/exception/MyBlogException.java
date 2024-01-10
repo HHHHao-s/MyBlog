@@ -1,10 +1,6 @@
 package xyz.snwjas.blog.exception;
 
-/**
- * Base exception of the project.
- *
- * @author Myles Yang
- */
+
 public abstract class MyBlogException extends RuntimeException {
 
 	private static final long serialVersionUID = 4140200838147465959L;

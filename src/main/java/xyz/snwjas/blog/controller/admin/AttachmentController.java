@@ -27,7 +27,7 @@ import java.util.Objects;
 /**
  * Attachment Controller
  *
- * @author Myles Yang
+ * 
  */
 @Validated
 @RestController("AdminAttachmentController")

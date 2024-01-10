@@ -17,7 +17,7 @@ import xyz.snwjas.blog.model.enums.BlogStatus;
  * 博客
  * </p>
  *
- * @author Myles Yang
+ * 
  */
 @Data
 @EqualsAndHashCode(callSuper = true)

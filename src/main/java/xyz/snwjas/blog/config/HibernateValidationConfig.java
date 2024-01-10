@@ -12,7 +12,7 @@ import javax.validation.ValidatorFactory;
 /**
  * Spring Validation 配置
  *
- * @author Myles Yang
+ * 
  */
 @Configuration
 public class HibernateValidationConfig {

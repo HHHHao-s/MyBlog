@@ -24,7 +24,7 @@ import java.util.stream.Collectors;
 /**
  * Log Service Impl
  *
- * @author Myles Yang
+ * 
  */
 @Service
 public class LogServiceImpl implements LogService {

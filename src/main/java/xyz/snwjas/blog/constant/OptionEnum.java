@@ -3,7 +3,7 @@ package xyz.snwjas.blog.constant;
 /**
  * 博客设置枚举接口
  *
- * @author Myles Yang
+ * 
  */
 public interface OptionEnum {
 

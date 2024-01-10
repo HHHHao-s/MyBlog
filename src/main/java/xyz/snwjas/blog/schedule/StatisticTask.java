@@ -10,7 +10,7 @@ import xyz.snwjas.blog.service.StatisticsService;
 /**
  * 数据统计定时任务
  *
- * @author Myles Yang
+ * 
  */
 @Component
 @Slf4j

@@ -5,7 +5,7 @@ import com.baomidou.mybatisplus.annotation.EnumValue;
 /**
  * Special List Type enum
  *
- * @author Myles Yang
+ * 
  */
 public enum SpecialListType implements ValueEnum<Integer> {
 

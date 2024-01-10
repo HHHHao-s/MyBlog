@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 /**
  * 博客每天的统计数据
  *
- * @author Myles Yang
+ * 
  */
 @Data
 @Accessors(chain = true)

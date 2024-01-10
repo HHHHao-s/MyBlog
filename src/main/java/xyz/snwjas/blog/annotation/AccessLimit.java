@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 /**
  * 接口防刷限流（固定时间内最大访问次数）
  *
- * @author Myles Yang
+ * 
  */
 @Target({ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)

@@ -8,7 +8,7 @@ import java.util.Map;
 /**
  * Options Service
  *
- * @author Myles Yang
+ * 
  */
 public interface OptionsService {
 

@@ -9,7 +9,7 @@ import java.util.Set;
 /**
  * Tag Service
  *
- * @author Myles Yang
+ * 
  */
 public interface TagService {
 

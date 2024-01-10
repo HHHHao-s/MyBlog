@@ -3,11 +3,7 @@ package xyz.snwjas.blog.exception;
 import org.springframework.http.HttpStatus;
 import xyz.snwjas.blog.constant.RS;
 
-/**
- * 服务异常
- *
- * @author Myles Yang
- */
+
 public class ServiceException extends MyBlogException {
 
 	private static final long serialVersionUID = 7951201720502956459L;

@@ -18,7 +18,7 @@ import java.util.Objects;
 /**
  * 接口限流防刷拦截器
  *
- * @author Myles Yang
+ *
  */
 @Component
 public class AccessLimitInterceptor implements HandlerInterceptor {

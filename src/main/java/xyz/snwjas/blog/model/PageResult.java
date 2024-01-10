@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * 分页结果
  *
- * @author Myles Yang
+ * 
  */
 @Data
 @ApiModel("分页结果")

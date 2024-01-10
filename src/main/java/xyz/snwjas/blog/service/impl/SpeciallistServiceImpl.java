@@ -32,7 +32,7 @@ import java.util.stream.Collectors;
 /**
  * Special List Service Impl
  *
- * @author Myles Yang
+ * 
  */
 @Service
 @Slf4j

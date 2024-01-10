@@ -8,7 +8,7 @@ import xyz.snwjas.blog.model.UserDetail;
 /**
  * User Service
  *
- * @author Myles Yang
+ * 
  */
 public interface UserService {
 

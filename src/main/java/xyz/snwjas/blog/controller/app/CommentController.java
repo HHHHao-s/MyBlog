@@ -23,11 +23,7 @@ import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 import java.util.HashMap;
 
-/**
- * Comment Controller
- *
- * @author Myles Yang
- */
+
 @Validated
 @RestController("AppCommentController")
 @RequestMapping("/api/app/comment")

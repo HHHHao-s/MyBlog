@@ -20,7 +20,7 @@ import javax.validation.Valid;
 /**
  * Log Controller
  *
- * @author Myles Yang
+ * 
  */
 @Validated
 @RestController("AdminLogController")

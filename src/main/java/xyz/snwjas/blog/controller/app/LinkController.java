@@ -18,11 +18,7 @@ import xyz.snwjas.blog.utils.RUtils;
 
 import java.util.List;
 
-/**
- * Link Controller
- *
- * @author Myles Yang
- */
+
 @RestController("AppLinkController")
 @RequestMapping("/api/app/link")
 @Api(value = "前台友链控制器", tags = {"前台友链接口"})

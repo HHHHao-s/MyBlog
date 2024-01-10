@@ -37,7 +37,7 @@ import java.util.stream.Collectors;
 /**
  * Blog Service
  *
- * @author Myles Yang
+ * 
  */
 @Service
 public class BlogServiceImpl implements BlogService {

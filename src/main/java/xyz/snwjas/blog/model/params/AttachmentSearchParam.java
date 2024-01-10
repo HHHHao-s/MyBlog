@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 /**
  * Attachment Search Param
  *
- * @author Myles Yang
+ * 
  */
 @EqualsAndHashCode(callSuper = true)
 @Data

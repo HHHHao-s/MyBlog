@@ -17,7 +17,7 @@ import xyz.snwjas.blog.model.enums.SpecialListType;
  * 特殊名单
  * </p>
  *
- * @author Myles Yang
+ * 
  */
 @NoArgsConstructor
 @Data

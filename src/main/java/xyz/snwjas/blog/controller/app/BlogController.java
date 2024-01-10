@@ -30,11 +30,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 
-/**
- * Blog Controller
- *
- * @author Myles Yang
- */
+
 @Validated
 @RestController("AppBlogController")
 @RequestMapping("/api/app/blog")

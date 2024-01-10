@@ -20,11 +20,7 @@ import xyz.snwjas.blog.utils.RUtils;
 import java.util.HashMap;
 import java.util.Objects;
 
-/**
- * User Controller
- *
- * @author Myles Yang
- */
+
 @CrossOrigin(allowCredentials = "true")
 @RestController("AdminUserController")
 @RequestMapping("/api/admin/user")

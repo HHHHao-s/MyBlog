@@ -7,7 +7,7 @@ import xyz.snwjas.blog.model.R;
 /**
  * 统一 响应 工具
  *
- * @author Myles Yang
+ * 
  */
 public class RUtils {
 

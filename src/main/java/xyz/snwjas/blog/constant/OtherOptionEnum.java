@@ -3,7 +3,7 @@ package xyz.snwjas.blog.constant;
 /**
  * todo
  *
- * @author Myles Yang
+ * 
  */
 public enum OtherOptionEnum implements OptionEnum {
 

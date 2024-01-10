@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Statistic Interceptor
  *
- * @author Myles Yang
+ *
  */
 @Component
 @Slf4j

@@ -15,7 +15,7 @@ import java.util.List;
 /**
  * Comment Service
  *
- * @author Myles Yang
+ * 
  */
 public interface CommentService {
 

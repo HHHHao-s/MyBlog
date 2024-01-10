@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
 /**
  * 博客数据统计View Object
  *
- * @author Myles Yang
+ * 
  */
 
 @Data

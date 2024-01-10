@@ -36,7 +36,7 @@ import java.util.stream.Collectors;
  * 统计表（统计每日的数据） 服务实现类
  * </p>
  *
- * @author Myles Yang
+ * 
  */
 @Service
 @Slf4j

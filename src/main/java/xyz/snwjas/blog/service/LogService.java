@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * Log Service
  *
- * @author Myles Yang
+ * 
  */
 public interface LogService {
 

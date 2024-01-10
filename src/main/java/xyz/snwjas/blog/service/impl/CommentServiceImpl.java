@@ -37,7 +37,7 @@ import java.util.stream.Collectors;
 /**
  * Comment Service
  *
- * @author Myles Yang
+ * 
  */
 @Service
 public class CommentServiceImpl implements CommentService {

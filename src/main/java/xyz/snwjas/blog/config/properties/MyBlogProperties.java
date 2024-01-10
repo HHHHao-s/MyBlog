@@ -9,7 +9,7 @@ import java.nio.file.Paths;
 /**
  * 博客配置
  *
- * @author Myles Yang
+ * 
  */
 @Getter
 @Setter

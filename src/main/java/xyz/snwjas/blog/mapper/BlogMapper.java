@@ -11,7 +11,7 @@ import xyz.snwjas.blog.model.entity.BlogEntity;
  * 博客 Mapper 接口
  * </p>
  *
- * @author Myles Yang
+ *
  */
 public interface BlogMapper extends BaseMapper<BlogEntity> {
 

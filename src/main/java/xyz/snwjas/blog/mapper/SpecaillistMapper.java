@@ -8,7 +8,7 @@ import xyz.snwjas.blog.model.entity.SpeciallistEntity;
  * 特殊清单 Mapper 接口
  * </p>
  *
- * @author Myles Yang
+ * 
  */
 public interface SpecaillistMapper extends BaseMapper<SpeciallistEntity> {
 }

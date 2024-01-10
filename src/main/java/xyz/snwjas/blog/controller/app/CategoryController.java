@@ -17,11 +17,7 @@ import xyz.snwjas.blog.utils.RUtils;
 
 import java.util.List;
 
-/**
- * Category Controller
- *
- * @author Myles Yang
- */
+
 @RestController("AppCategoryController")
 @RequestMapping("/api/app/category")
 @CrossOrigin(allowCredentials = "true")

@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 /**
  * MyBlog Option Enum
  *
- * @author Myles Yang
+ * 
  */
 public enum MyBlogOptionEnum implements OptionEnum {
 

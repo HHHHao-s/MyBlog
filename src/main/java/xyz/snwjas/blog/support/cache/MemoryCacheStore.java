@@ -20,7 +20,7 @@ import java.util.stream.Collectors;
 /**
  * 基于内存的简单键值缓存实现
  *
- * @author Myles Yang
+ * 
  */
 @Slf4j
 public class MemoryCacheStore implements CacheStore<String, Object> {

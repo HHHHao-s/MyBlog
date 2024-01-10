@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * Link Service
  *
- * @author Myles Yang
+ * 
  */
 public interface LinkService {
 

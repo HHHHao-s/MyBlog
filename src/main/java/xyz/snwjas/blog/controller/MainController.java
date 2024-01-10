@@ -21,11 +21,7 @@ import java.io.IOException;
 import java.util.Map;
 import java.util.Objects;
 
-/**
- * Main Controller
- *
- * @author Myles Yang
- */
+
 @RestController
 @Api(value = "主控制器", tags = {"主接口"})
 @CrossOrigin(allowCredentials = "true")

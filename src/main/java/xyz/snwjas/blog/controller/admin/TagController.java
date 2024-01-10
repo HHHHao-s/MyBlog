@@ -16,13 +16,7 @@ import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 import java.util.List;
 
-/**
- * <p>
- * 标签 前端控制器
- * </p>
- *
- * @author Myles Yang
- */
+
 @Validated
 @RestController("AdminTagController")
 @RequestMapping("/api/admin/blog/tag")

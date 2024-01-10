@@ -12,7 +12,7 @@ import java.io.Serializable;
 /**
  * User VO
  *
- * @author Myles Yang
+ * 
  */
 @Data
 @ApiModel("用户视图对象")

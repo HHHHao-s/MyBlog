@@ -17,11 +17,7 @@ import java.io.Serializable;
 import java.time.LocalDateTime;
 import java.util.List;
 
-/**
- * 博客列表View Object
- *
- * @author Myles Yang
- */
+
 @Data
 @Accessors(chain = true)
 @ApiModel("简单的博客文章视图对象")

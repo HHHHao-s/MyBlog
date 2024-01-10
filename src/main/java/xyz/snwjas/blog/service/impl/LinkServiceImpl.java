@@ -22,7 +22,7 @@ import java.util.stream.Collectors;
 /**
  * Link Service Impl
  *
- * @author Myles Yang
+ * 
  */
 @Service
 public class LinkServiceImpl implements LinkService {

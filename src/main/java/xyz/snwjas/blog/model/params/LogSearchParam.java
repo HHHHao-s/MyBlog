@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * Log Search Param
  *
- * @author Myles Yang
+ * 
  */
 @EqualsAndHashCode(callSuper = true)
 @Data

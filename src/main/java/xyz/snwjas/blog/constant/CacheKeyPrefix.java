@@ -3,7 +3,7 @@ package xyz.snwjas.blog.constant;
 /**
  * Redis key 前缀 常量
  *
- * @author Myles Yang
+ * 
  */
 public interface CacheKeyPrefix {
 

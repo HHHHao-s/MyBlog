@@ -5,7 +5,7 @@ import com.baomidou.mybatisplus.annotation.EnumValue;
 /**
  * 博客评论允许状态枚举常量
  *
- * @author Myles Yang
+ * 
  */
 public enum BlogCommentAllowStatus implements ValueEnum<Integer> {
 	/**

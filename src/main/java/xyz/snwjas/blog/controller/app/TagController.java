@@ -16,11 +16,7 @@ import xyz.snwjas.blog.utils.RUtils;
 
 import java.util.List;
 
-/**
- * Tag Controller
- *
- * @author Myles Yang
- */
+
 @Validated
 @RestController("AppTagController")
 @RequestMapping("/api/app/tag")

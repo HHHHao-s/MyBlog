@@ -7,7 +7,7 @@ import org.springframework.lang.NonNull;
 /**
  * po dto vo ... bean转换
  *
- * @author Myles Yang
+ * 
  */
 public interface BeanConvert{
 

@@ -17,7 +17,7 @@ import java.io.Serializable;
 /**
  * Tag VO
  *
- * @author Myles Yang
+ * 
  */
 @Data
 @Accessors(chain = true)

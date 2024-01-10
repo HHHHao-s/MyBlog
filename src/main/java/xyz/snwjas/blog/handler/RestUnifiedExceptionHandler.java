@@ -22,7 +22,7 @@ import javax.validation.ConstraintViolationException;
 /**
  * 统一异常处理
  *
- * @author Myles Yang
+ *
  */
 @RestControllerAdvice
 @Slf4j

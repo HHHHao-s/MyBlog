@@ -25,7 +25,7 @@ import java.util.List;
 /**
  * Category Controller
  *
- * @author Myles Yang
+ * 
  */
 @Validated
 @RestController("AdminCategoryController")

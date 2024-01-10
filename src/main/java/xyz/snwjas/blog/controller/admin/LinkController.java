@@ -25,7 +25,7 @@ import javax.validation.constraints.Min;
 /**
  * Link Controller
  *
- * @author Myles Yang
+ * 
  */
 @Validated
 @RestController("AdminLinkController")

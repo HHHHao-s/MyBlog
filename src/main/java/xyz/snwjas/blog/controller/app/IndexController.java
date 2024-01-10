@@ -21,11 +21,7 @@ import xyz.snwjas.blog.utils.RUtils;
 import java.time.LocalDateTime;
 import java.util.Map;
 
-/**
- * Index Controller
- *
- * @author Myles Yang
- */
+
 @RestController("AppIndexController")
 @RequestMapping("/api/app")
 @Api(value = "前台通用控制器", tags = {"前台通用接口"})

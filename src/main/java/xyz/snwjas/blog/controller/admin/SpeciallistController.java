@@ -23,7 +23,7 @@ import java.util.List;
 /**
  * Log Controller
  *
- * @author Myles Yang
+ * 
  */
 @Validated
 @RestController("AdminSpeciallistController")

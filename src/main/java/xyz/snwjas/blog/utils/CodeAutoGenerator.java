@@ -20,7 +20,7 @@ import java.util.Scanner;
 /**
  * MyBatis-Plus 的代码生成器
  *
- * @author Myles Yang
+ * 
  */
 public class CodeAutoGenerator {
 	/**

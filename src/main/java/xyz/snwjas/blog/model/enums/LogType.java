@@ -5,7 +5,7 @@ import com.baomidou.mybatisplus.annotation.EnumValue;
 /**
  * Log Type enum
  *
- * @author Myles Yang
+ * 
  */
 public enum LogType implements ValueEnum<Integer> {
 
