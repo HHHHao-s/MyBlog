@@ -31,6 +31,7 @@ import javax.validation.constraints.NotNull;
 @RestController("AdminCommentController")
 @RequestMapping("/api/admin/comment")
 @Api(value = "后台评论控制器", tags = {"后台评论接口"})
+@CrossOrigin(allowCredentials = "true")
 public class CommentController {
 
 	@Autowired

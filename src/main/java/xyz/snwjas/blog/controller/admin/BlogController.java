@@ -31,6 +31,7 @@ import java.util.Objects;
 @RestController("AdminBlogController")
 @RequestMapping("/api/admin/blog")
 @Api(value = "后台博客文章控制器", tags = {"后台博客文章接口"})
+@CrossOrigin(allowCredentials = "true")
 public class BlogController {
 
 	@Autowired

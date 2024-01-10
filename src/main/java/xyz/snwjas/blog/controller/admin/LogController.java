@@ -26,6 +26,7 @@ import javax.validation.Valid;
 @RestController("AdminLogController")
 @RequestMapping("/api/admin/log")
 @Api(value = "后台日志控制器", tags = {"后台日志接口"})
+@CrossOrigin(allowCredentials = "true")
 public class LogController {
 
 	@Autowired

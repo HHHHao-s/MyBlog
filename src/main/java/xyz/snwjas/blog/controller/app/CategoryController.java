@@ -3,6 +3,7 @@ package xyz.snwjas.blog.controller.app;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -23,6 +24,7 @@ import java.util.List;
  */
 @RestController("AppCategoryController")
 @RequestMapping("/api/app/category")
+@CrossOrigin(allowCredentials = "true")
 @Api(value = "前台分类控制器", tags = {"前台分类接口"})
 public class CategoryController {
 

@@ -31,6 +31,7 @@ import java.util.List;
 @RestController("AdminCategoryController")
 @RequestMapping("/api/admin/blog/category")
 @Api(value = "后台分类控制器", tags = {"后台分类接口"})
+@CrossOrigin(allowCredentials = "true")
 public class CategoryController {
 
 	@Autowired

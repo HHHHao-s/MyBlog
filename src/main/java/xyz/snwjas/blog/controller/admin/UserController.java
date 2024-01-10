@@ -25,6 +25,7 @@ import java.util.Objects;
  *
  * @author Myles Yang
  */
+@CrossOrigin(allowCredentials = "true")
 @RestController("AdminUserController")
 @RequestMapping("/api/admin/user")
 @Api(value = "后台用户控制器", tags = {"后台用户接口"})

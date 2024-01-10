@@ -29,6 +29,7 @@ import java.util.List;
 @RestController("AdminSpeciallistController")
 @RequestMapping("/api/admin/speciallist")
 @Api(value = "后台特殊清单控制器", tags = {"后台特殊清单接口"})
+@CrossOrigin(allowCredentials = "true")
 public class SpeciallistController {
 
 	@Autowired

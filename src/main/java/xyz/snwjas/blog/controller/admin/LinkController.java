@@ -31,6 +31,7 @@ import javax.validation.constraints.Min;
 @RestController("AdminLinkController")
 @RequestMapping("/api/admin/link")
 @Api(value = "后台友链控制器", tags = {"后台友链接口"})
+@CrossOrigin(allowCredentials = "true")
 public class LinkController {
 
 	@Autowired

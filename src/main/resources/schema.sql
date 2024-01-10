@@ -3,7 +3,8 @@
 -- Host: 127.0.0.1    Database: myblogdb
 -- ------------------------------------------------------
 -- Server version	8.0.24
-
+create database if not exists myblogdb default charset utf8mb4 collate utf8mb4_0900_ai_ci;
+use myblogdb;
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;

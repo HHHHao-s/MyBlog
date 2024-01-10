@@ -27,6 +27,7 @@ import java.util.List;
 @RestController("AdminTagController")
 @RequestMapping("/api/admin/blog/tag")
 @Api(value = "后台标签控制器", tags = {"后台标签接口"})
+@CrossOrigin(allowCredentials = "true")
 public class TagController {
 
 	@Autowired

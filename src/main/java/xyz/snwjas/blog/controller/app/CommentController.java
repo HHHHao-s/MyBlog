@@ -32,6 +32,7 @@ import java.util.HashMap;
 @RestController("AppCommentController")
 @RequestMapping("/api/app/comment")
 @Api(value = "前台评论控制器", tags = {"前台评论接口"})
+@CrossOrigin(allowCredentials = "true")
 public class CommentController {
 
 	private static final int PAGE_SIZE = 7;

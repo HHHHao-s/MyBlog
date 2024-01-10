@@ -38,6 +38,7 @@ import java.util.Objects;
 @Validated
 @RestController("AppBlogController")
 @RequestMapping("/api/app/blog")
+@CrossOrigin(allowCredentials = "true")
 @Api(value = "前台博客控制器", tags = {"前台博客文章接口"})
 public class BlogController {
 

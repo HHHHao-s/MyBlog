@@ -33,6 +33,7 @@ import java.util.Objects;
 @RestController("AdminAttachmentController")
 @RequestMapping("/api/admin/attachment")
 @Api(value = "后台附件控制器", tags = {"后台附件接口"})
+@CrossOrigin(allowCredentials = "true")
 public class AttachmentController {
 
 	@Autowired

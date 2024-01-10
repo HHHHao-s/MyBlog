@@ -3,6 +3,7 @@ package xyz.snwjas.blog.controller.app;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -28,6 +29,7 @@ import java.util.Map;
 @RestController("AppIndexController")
 @RequestMapping("/api/app")
 @Api(value = "前台通用控制器", tags = {"前台通用接口"})
+@CrossOrigin(allowCredentials = "true")
 public class IndexController {
 
 	@Autowired

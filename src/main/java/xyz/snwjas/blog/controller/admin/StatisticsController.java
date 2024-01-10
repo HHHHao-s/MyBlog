@@ -5,10 +5,7 @@ import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import xyz.snwjas.blog.config.LocalDateTimeSerializerConfig;
 import xyz.snwjas.blog.model.R;
 import xyz.snwjas.blog.model.vo.StatisticsBasicVO;
@@ -28,6 +25,7 @@ import java.util.List;
 @RestController("AdminStatisticsController")
 @RequestMapping("/api/admin/statistics")
 @Api(value = "后台统计控制器", tags = {"后台统计接口"})
+@CrossOrigin(allowCredentials = "true")
 public class StatisticsController {
 
 	@Autowired

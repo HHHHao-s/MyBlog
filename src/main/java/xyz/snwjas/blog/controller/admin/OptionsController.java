@@ -32,6 +32,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 @RestController("AdminOptionsController")
 @RequestMapping("/api/admin/option")
 @Api(value = "后台设置控制器", tags = {"后台设置选项接口"})
+@CrossOrigin(allowCredentials = "true")
 public class OptionsController {
 
 	@Autowired

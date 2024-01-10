@@ -1,4 +1,27 @@
+server:
+  port: 9096
+  tomcat:
+    max-swallow-size: -1
+
 spring:
-  profiles:
-    active: dev
-#    active: prod
+  datasource:
+    name: myblogdb
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/myblogdb?allowPublicKeyRetrieval=true&useSSL=false&useUnicode=true&characterEncoding=UTF8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 275500
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 100MB
+
+mybatis-plus:
+  configuration:
+    # log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    default-enum-type-handler: com.baomidou.mybatisplus.extension.handlers.MybatisEnumTypeHandler
+  mapper-locations:
+    - classpath:xyz/snwjas/blog/mapper/xml/*.xml
+
+my-blog:
+  doc-enable: true
+  admin-path: admin
