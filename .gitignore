@@ -4,3 +4,4 @@ target/
 src/test/java/xyz/snwjas/blog/*
 !src/test/java/xyz/snwjas/blog/.gitkeep
 src/main/resources/BugRecords.md
+*.docx
