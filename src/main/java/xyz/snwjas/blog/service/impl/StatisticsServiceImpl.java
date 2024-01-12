@@ -63,8 +63,6 @@ public class StatisticsServiceImpl implements StatisticsService {
 	@Autowired
 	private TagService tagService;
 
-	@Autowired
-	private LinkService linkService;
 
 	@Autowired
 	private OptionsService optionsService;
@@ -82,7 +80,6 @@ public class StatisticsServiceImpl implements StatisticsService {
 				.setCommentCount(commentService.getCountByStatus(CommentStatus.PUBLISHED)) // 评论总数
 				.setCategoryCount(categoryService.getCount()) // 分类总数
 				.setTagCount(tagService.getCount()) // 标签总数
-				.setLinkCount(linkService.getCount()) // 友链总数
 				.setBlogTotalVisits(blogService.getTotalVisits()) // 博客访问总数
 				.setWebTotalVisits(getWebTotalVisit()); // 网站总访问量
 
